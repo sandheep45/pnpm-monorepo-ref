@@ -1,0 +1,17 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@libs/*": ["libs/*"]
+    }
+  },
+  "include": ["libs/**/*", "apps/**/*"],
+  "exclude": ["node_modules"]
+}
