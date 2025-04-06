@@ -1,5 +1,5 @@
 {
-  "name": "@libs/shared-utils",
+  "name": "@bb/shared-utils",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "dev": "tsc && vite build --watch"
   },
   "devDependencies": {
+    "@bb/shared-eslint": "workspace:*",
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
     "vite-plugin-dts": "^4.5.3"

@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@libs/shared-ui": "workspace:*",
-    "@libs/shared-utils": "workspace:*",
+    "@bb/shared-ui": "workspace:*",
+    "@bb/shared-utils": "workspace:*",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
